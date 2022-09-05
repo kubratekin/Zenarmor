@@ -187,9 +187,6 @@ public class OpnsensePage {
     @FindBy(xpath = " /html/body/main/div/header/div/ul/li[1]/h1/label")
     public WebElement dashboardHeader;
 
-    @FindBy(xpath = "//div[@class='modal fade p-0 o-y-hidden au-target in']//div[@class='modal-header']//span[@aria-hidden='true'][normalize-space()='×']")
-    public WebElement closeMenu;
-
     @FindBy(xpath = "/html/body/main/aside/div/nav/div/div/div[8]/a[4]/div/div/div[1]")
     public WebElement policyMenu;
 
