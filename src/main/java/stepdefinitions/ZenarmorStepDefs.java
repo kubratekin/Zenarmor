@@ -15,8 +15,6 @@ import pages.OpnsensePage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-import java.util.concurrent.TimeUnit;
-
 public class ZenarmorStepDefs {
 
     OpnsensePage opnsensePage = new OpnsensePage();
@@ -99,6 +97,12 @@ public class ZenarmorStepDefs {
         opnsensePage.saveChanges.click();
         Thread.sleep(2000);
         opnsensePage.refreshButton2.click();
+    }
+
+
+    @When("User click Report Menu")
+    public void userClickReportMenu() {
+        opnsensePage.reportMenu.click();
     }
 
     @Given("User verifies Add filter is displayed")
@@ -380,13 +384,6 @@ public class ZenarmorStepDefs {
         Driver.wait(3);
         Assert.assertTrue(opnsensePage.policyToastContainerMessage.isDisplayed());
     }
-
-
-    @When("User click Report Menu")
-    public void userClickReportMenu() {
-        opnsensePage.reportMenu.click();
-    }
-
     @When("User click on Dashboard  Menu")
     public void userClickOnDashboardMenu() {
         opnsensePage.dashboardMenu.click();

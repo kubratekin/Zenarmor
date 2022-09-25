@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         },
         features = ".\\src\\test\\resources\\features",//MUST
         glue = "stepdefinitions",//MUST
-        tags = "@zanarmor",
+        tags = "@US002_TC03",
         dryRun = false
 
 )

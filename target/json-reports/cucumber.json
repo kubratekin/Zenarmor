@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9404988200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Client goes to url",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.clientGoesToUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12748916300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Client enters username and password",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.clientEntersUsernameAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7120376200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Zenarmor and clicks Configuration",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.user_navigates_to_zenarmor_and_clicks_configuration()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-25T20:36:55.712Z",
+        "line": 38,
+        "name": "TC_03 Updates\u0026Health Menu",
+        "description": "",
+        "id": "zenarmor-configuration;tc-03-updates\u0026health-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2357837200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User clicks Updates\u0026Health Menu",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.user_clicks_updates_health_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23661374900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User clicks on Enabled ,engine heartbeat, help button",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.user_clicks_on_enabled_engine_heartbeat_help_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9248758800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User clicks on check updates,app database and core file button",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.user_clicks_on_check_updates_app_database_and_core_file_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 335861700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User selects max swap utilization dropdown",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.user_selects_max_swap_utilization_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17288646200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User clicks policy link",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.user_clicks_policy_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29439649300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User clicks  save chnges and verify the sussessful message",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.user_clicks_save_chnges_and_verify_the_sussessful_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6311013000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User clicks on Refresh bttn",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.user_clicks_on_refresh_bttn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 874775900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User closes the driver",
+            "match": {
+              "location": "stepdefinitions.ZenarmorConfigStepDefs.user_closes_the_driver()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Zenarmor_02"
+          },
+          {
+            "name": "@US002_TC03"
+          }
+        ]
+      }
+    ],
+    "name": "Zenarmor Configuration",
+    "description": "",
+    "id": "zenarmor-configuration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/zenarmorconfig.feature",
+    "tags": [
+      {
+        "name": "@Zenarmor_02",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

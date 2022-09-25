@@ -225,7 +225,6 @@ public class OpnsensePage {
     @FindBy(xpath = "/html/body/main/div/section/div/div/section/div[2]/router-view/router-view/router-view/div[1]/div[3]/div[1]/div/div[2]/table/tbody/tr[1]/td[4]/a/i")
     public WebElement globalActionCheckBox;
 
-
     @FindBy(xpath = "/html/body/main/div/section/div/div/section/div[2]/router-view/router-view/router-view/div[1]/div[3]/div[1]/div/div[2]/div[4]/div/a")
     public WebElement deleteListPolicy;
 

@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.087"/>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="119.769">
+    <testcase classname="Zenarmor Configuration" name="TC_03 Updates&amp;Health Menu" time="119.267">
+        <system-out>
+            <![CDATA[Given Client goes to url....................................................passed
+And Client enters username and password.....................................passed
+When User navigates to Zenarmor and clicks Configuration....................passed
+When User clicks Updates&Health Menu........................................passed
+And User clicks on Enabled ,engine heartbeat, help button...................passed
+And User clicks on check updates,app database and core file button..........passed
+And User selects max swap utilization dropdown..............................passed
+And User clicks policy link.................................................passed
+And User clicks  save chnges and verify the sussessful message..............passed
+And User clicks on Refresh bttn.............................................passed
+Then User closes the driver.................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
